@@ -1,0 +1,625 @@
+2019-08-29 08:55:25.729  INFO 57972 --- [restartedMain] com.review.ReviewApplication             : Starting ReviewApplication on WIN-7QABFM6O23C with PID 57972 (C:\Users\Administrator\Desktop\Code\ReviewDay20190802\target\classes started by Administrator in C:\Users\Administrator\Desktop\Code\ReviewDay20190802)
+2019-08-29 08:55:25.741  INFO 57972 --- [restartedMain] com.review.ReviewApplication             : No active profile set, falling back to default profiles: default
+2019-08-29 08:55:26.045  INFO 57972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-29 08:55:26.045  INFO 57972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-29 08:55:27.725  INFO 57972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 08:55:27.879  INFO 57972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139ms. Found 4 repository interfaces.
+2019-08-29 08:55:28.585  INFO 57972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b24ad78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 08:55:29.349  INFO 57972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-29 08:55:29.411  INFO 57972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-29 08:55:29.429  INFO 57972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-29 08:55:29.445  INFO 57972 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;%MYSQL_HOME%\bin;C:\Android;C:\Windows\System32;C:\Maven\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-08-29 08:55:29.698  INFO 57972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-29 08:55:29.698  INFO 57972 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3649 ms
+2019-08-29 08:55:30.417  INFO 57972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-29 08:55:30.665  INFO 57972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-29 08:55:30.750  INFO 57972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 08:55:30.907  INFO 57972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-29 08:55:30.909  INFO 57972 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-29 08:55:31.315  INFO 57972 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 08:55:31.580  INFO 57972 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 08:55:32.847  INFO 57972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 08:55:33.038  INFO 57972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-29 08:55:34.763  INFO 57972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 08:55:34.838  WARN 57972 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 08:55:35.042  INFO 57972 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-29 08:55:35.459  INFO 57972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-29 08:55:35.462  INFO 57972 --- [restartedMain] com.review.ReviewApplication             : Started ReviewApplication in 10.681 seconds (JVM running for 12.789)
+2019-08-29 08:55:49.002  INFO 57972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 08:55:49.002  INFO 57972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-29 08:55:49.014  INFO 57972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-08-29 08:55:49.342 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:55:49.362 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:55:49.381 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:55:49.384 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:55:49.384 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:55:49.398 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:55:49.400 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:49.400 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:49.409 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:49.416 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:49.417 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:55:49.418 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:49.418 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:49.419 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:49.422 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:49.422 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:49.423 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:49.424 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:49.425 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:49.426 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:49.427 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:49.427 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:49.428 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:49.429 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:49.430 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:49.430 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:49.431 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.537 DEBUG 57972 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.538 DEBUG 57972 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.539 DEBUG 57972 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.540 DEBUG 57972 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.update      : ==>  Preparing: UPDATE user_review SET avatar_url=?, gmt_modified=?,name=?,tooken=? where account_id = ? 
+2019-08-29 08:55:56.540 DEBUG 57972 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.update      : ==> Parameters: https://avatars1.githubusercontent.com/u/40432448?v=4(String), 1567040156540(Long), He开口(String), af17c036-5f33-40fb-870c-440b0adea4f1(String), 40432448(String)
+2019-08-29 08:55:56.548 DEBUG 57972 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.update      : <==    Updates: 1
+2019-08-29 08:55:56.567 DEBUG 57972 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:55:56.567 DEBUG 57972 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:55:56.568 DEBUG 57972 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:55:56.570 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:55:56.570 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:55:56.571 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:55:56.571 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:55:56.571 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:55:56.573 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:55:56.574 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.574 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.575 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.576 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.577 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:55:56.579 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.580 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.581 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.582 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.583 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.583 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.584 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.585 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.585 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.586 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.587 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.587 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.588 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.589 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:55:56.589 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.591 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:55:56.592 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:55:56.592 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:55:56.598 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:56:00.360 DEBUG 57972 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:00.361 DEBUG 57972 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:00.363 DEBUG 57972 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:00.370 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.Q.selectByCreator_COUNT            : ==>  Preparing: SELECT count(0) FROM question WHERE creator = ? 
+2019-08-29 08:56:00.371 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.Q.selectByCreator_COUNT            : ==> Parameters: 40432448(String)
+2019-08-29 08:56:00.372 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.Q.selectByCreator_COUNT            : <==      Total: 1
+2019-08-29 08:56:00.373 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.selectByCreator     : ==>  Preparing: select * from question where creator = ? LIMIT ? 
+2019-08-29 08:56:00.373 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.selectByCreator     : ==> Parameters: 40432448(String), 3(Integer)
+2019-08-29 08:56:00.377 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.selectByCreator     : <==      Total: 3
+2019-08-29 08:56:03.105 DEBUG 57972 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:03.105 DEBUG 57972 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:03.106 DEBUG 57972 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:03.108 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:56:03.108 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 7(Integer)
+2019-08-29 08:56:03.110 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:56:03.111 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.111 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.112 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.119 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectByRegexpTag   : ==>  Preparing: select * from question where id !=? and tag regexp ? 
+2019-08-29 08:56:03.120 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectByRegexpTag   : ==> Parameters: 7(Integer), 标签|标签2|标签3|Java|Spring(String)
+2019-08-29 08:56:03.128 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectByRegexpTag   : <==      Total: 13
+2019-08-29 08:56:03.128 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:56:03.129 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 7(Integer)
+2019-08-29 08:56:03.130 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:56:03.131 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.Q.selectViewCountById              : ==>  Preparing: select view_count from question where id = ? 
+2019-08-29 08:56:03.132 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.Q.selectViewCountById              : ==> Parameters: 7(Integer)
+2019-08-29 08:56:03.133 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.Q.selectViewCountById              : <==      Total: 1
+2019-08-29 08:56:03.133 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.updateViewCount     : ==>  Preparing: UPDATE question SET view_count=? where id = ? 
+2019-08-29 08:56:03.134 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.updateViewCount     : ==> Parameters: 198(Integer), 7(Integer)
+2019-08-29 08:56:03.136 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.updateViewCount     : <==    Updates: 1
+2019-08-29 08:56:03.137 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.CommentMapper.selectByParentId     : ==>  Preparing: select * from comment where parent_id = ? 
+2019-08-29 08:56:03.137 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.CommentMapper.selectByParentId     : ==> Parameters: 7(Integer)
+2019-08-29 08:56:03.140 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.M.CommentMapper.selectByParentId     : <==      Total: 9
+2019-08-29 08:56:03.143 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.143 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.144 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.145 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.145 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.146 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.146 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.147 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.148 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.148 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.149 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.150 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.150 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.150 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.151 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.152 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.152 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.154 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.155 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.155 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.156 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.156 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.156 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:03.159 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.160 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:03.160 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:56:03.161 DEBUG 57972 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:03.223 DEBUG 57972 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:03.223 DEBUG 57972 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:03.224 DEBUG 57972 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:03.225 DEBUG 57972 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:03.225 DEBUG 57972 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:03.226 DEBUG 57972 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:03.226 DEBUG 57972 --- [http-nio-8080-exec-3] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:03.228 DEBUG 57972 --- [http-nio-8080-exec-3] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:03.230 DEBUG 57972 --- [http-nio-8080-exec-3] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:03.234 DEBUG 57972 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:03.234 DEBUG 57972 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:03.234 DEBUG 57972 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:03.235 DEBUG 57972 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:03.236 DEBUG 57972 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:03.237 DEBUG 57972 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:03.241 DEBUG 57972 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:03.241 DEBUG 57972 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:03.242 DEBUG 57972 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:04.519 DEBUG 57972 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:04.519 DEBUG 57972 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:04.520 DEBUG 57972 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:04.521 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:56:04.521 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:56:04.522 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:56:04.522 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:56:04.522 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:56:04.524 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:56:04.525 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:04.525 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:04.526 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:04.528 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:04.528 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:56:04.529 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:04.531 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:04.531 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:04.532 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:04.533 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:04.534 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:04.535 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:04.535 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:04.536 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:04.537 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:04.539 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:04.540 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:04.541 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:04.542 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:04.542 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:04.543 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:04.544 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:56:04.544 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:56:04.545 DEBUG 57972 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:56:05.941 DEBUG 57972 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:05.941 DEBUG 57972 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:05.942 DEBUG 57972 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:05.944 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.Q.selectByCreator_COUNT            : ==>  Preparing: SELECT count(0) FROM question WHERE creator = ? 
+2019-08-29 08:56:05.944 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.Q.selectByCreator_COUNT            : ==> Parameters: 40432448(String)
+2019-08-29 08:56:05.945 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.Q.selectByCreator_COUNT            : <==      Total: 1
+2019-08-29 08:56:05.945 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.selectByCreator     : ==>  Preparing: select * from question where creator = ? LIMIT ? 
+2019-08-29 08:56:05.945 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.selectByCreator     : ==> Parameters: 40432448(String), 3(Integer)
+2019-08-29 08:56:05.946 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.selectByCreator     : <==      Total: 3
+2019-08-29 08:56:05.947 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.N.selectByReceiver                 : ==>  Preparing: select * from notification where receiver = ? and status=0 order by gmt_create Desc 
+2019-08-29 08:56:05.947 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.N.selectByReceiver                 : ==> Parameters: 40432448(Integer)
+2019-08-29 08:56:05.949 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.N.selectByReceiver                 : <==      Total: 0
+2019-08-29 08:56:05.950 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.N.selectByReceiverIsRead           : ==>  Preparing: select * from notification where receiver = ? and status=1 order by gmt_create Desc 
+2019-08-29 08:56:05.950 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.N.selectByReceiverIsRead           : ==> Parameters: 40432448(Integer)
+2019-08-29 08:56:05.953 DEBUG 57972 --- [http-nio-8080-exec-6] c.r.M.N.selectByReceiverIsRead           : <==      Total: 15
+2019-08-29 08:56:08.118 DEBUG 57972 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:08.119 DEBUG 57972 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:08.120 DEBUG 57972 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:08.120 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:56:08.121 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 37(Integer)
+2019-08-29 08:56:08.121 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:56:08.122 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:08.122 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:08.123 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:08.124 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.selectByRegexpTag   : ==>  Preparing: select * from question where id !=? and tag regexp ? 
+2019-08-29 08:56:08.124 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.selectByRegexpTag   : ==> Parameters: 37(Integer), MarkDown(String)
+2019-08-29 08:56:08.126 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.selectByRegexpTag   : <==      Total: 4
+2019-08-29 08:56:08.126 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:56:08.126 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 37(Integer)
+2019-08-29 08:56:08.127 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:56:08.128 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.Q.selectViewCountById              : ==>  Preparing: select view_count from question where id = ? 
+2019-08-29 08:56:08.128 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.Q.selectViewCountById              : ==> Parameters: 37(Integer)
+2019-08-29 08:56:08.129 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.Q.selectViewCountById              : <==      Total: 1
+2019-08-29 08:56:08.129 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.updateViewCount     : ==>  Preparing: UPDATE question SET view_count=? where id = ? 
+2019-08-29 08:56:08.130 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.updateViewCount     : ==> Parameters: 14(Integer), 37(Integer)
+2019-08-29 08:56:08.130 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.QuestionMapper.updateViewCount     : <==    Updates: 1
+2019-08-29 08:56:08.131 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.CommentMapper.selectByParentId     : ==>  Preparing: select * from comment where parent_id = ? 
+2019-08-29 08:56:08.131 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.CommentMapper.selectByParentId     : ==> Parameters: 37(Integer)
+2019-08-29 08:56:08.132 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.M.CommentMapper.selectByParentId     : <==      Total: 1
+2019-08-29 08:56:08.133 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:08.133 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:56:08.135 DEBUG 57972 --- [http-nio-8080-exec-7] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.680 DEBUG 57972 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:56:10.680 DEBUG 57972 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:56:10.681 DEBUG 57972 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:56:10.682 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:56:10.682 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:56:10.684 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:56:10.684 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:56:10.685 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:56:10.688 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:56:10.689 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:10.689 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:10.690 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.691 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:10.691 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:56:10.692 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.693 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:10.693 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:10.694 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.695 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:10.695 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:10.696 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.696 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:10.697 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:10.698 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.698 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:10.698 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:10.701 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.702 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:56:10.702 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:56:10.703 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:56:10.703 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:56:10.703 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:56:10.706 DEBUG 57972 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:57:05.907  INFO 55292 --- [restartedMain] com.review.ReviewApplication             : Starting ReviewApplication on WIN-7QABFM6O23C with PID 55292 (C:\Users\Administrator\Desktop\Code\ReviewDay20190802\target\classes started by Administrator in C:\Users\Administrator\Desktop\Code\ReviewDay20190802)
+2019-08-29 08:57:05.907  INFO 55292 --- [restartedMain] com.review.ReviewApplication             : No active profile set, falling back to default profiles: default
+2019-08-29 08:57:05.938  INFO 55292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-29 08:57:05.938  INFO 55292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-29 08:57:06.720  INFO 55292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 08:57:06.787  INFO 55292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 4 repository interfaces.
+2019-08-29 08:57:07.172  INFO 55292 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$345aee11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 08:57:07.693  INFO 55292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-29 08:57:07.725  INFO 55292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-29 08:57:07.725  INFO 55292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-29 08:57:07.742  INFO 55292 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;%MYSQL_HOME%\bin;C:\Android;C:\Windows\System32;C:\Maven\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-08-29 08:57:07.881  INFO 55292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-29 08:57:07.881  INFO 55292 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1943 ms
+2019-08-29 08:57:08.157  INFO 55292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-29 08:57:08.266  INFO 55292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-29 08:57:09.121  INFO 55292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 08:57:09.371  INFO 55292 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-29 08:57:09.386  INFO 55292 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-29 08:57:09.556  INFO 55292 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 08:57:09.722  INFO 55292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 08:57:10.459  INFO 55292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 08:57:10.494  INFO 55292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-29 08:57:11.993  INFO 55292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 08:57:12.168  WARN 55292 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 08:57:12.538  INFO 55292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-29 08:57:12.776  INFO 55292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-29 08:57:12.776  INFO 55292 --- [restartedMain] com.review.ReviewApplication             : Started ReviewApplication in 7.511 seconds (JVM running for 8.638)
+2019-08-29 08:57:36.384  INFO 55292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 08:57:36.384  INFO 55292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-29 08:57:36.397  INFO 55292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-08-29 08:57:36.431 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:57:36.449 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:57:36.641 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:57:36.694 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:57:36.694 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:57:36.695 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:57:36.696 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:57:36.697 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:57:36.700 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:57:36.702 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:36.702 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:57:36.703 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:36.711 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:36.712 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:57:36.713 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:36.714 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:36.714 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:57:36.715 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:36.716 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:36.716 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:57:36.718 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:36.718 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:36.718 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:57:36.719 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:36.720 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:36.720 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:57:36.721 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:36.721 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:36.721 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:57:36.722 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:36.724 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:57:36.724 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:57:36.726 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:57:37.934 DEBUG 55292 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:57:37.934 DEBUG 55292 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:57:37.936 DEBUG 55292 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:57:37.942 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:57:37.943 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 37(Integer)
+2019-08-29 08:57:37.944 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:57:37.945 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:37.945 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:57:37.946 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:57:37.953 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.QuestionMapper.selectByRegexpTag   : ==>  Preparing: select * from question where id !=? and tag regexp ? 
+2019-08-29 08:57:37.954 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.QuestionMapper.selectByRegexpTag   : ==> Parameters: 37(Integer), MarkDown(String)
+2019-08-29 08:57:37.957 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.QuestionMapper.selectByRegexpTag   : <==      Total: 4
+2019-08-29 08:57:37.959 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:57:37.961 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 37(Integer)
+2019-08-29 08:57:37.964 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:57:37.965 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.Q.selectViewCountById              : ==>  Preparing: select view_count from question where id = ? 
+2019-08-29 08:57:37.966 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.Q.selectViewCountById              : ==> Parameters: 37(Integer)
+2019-08-29 08:57:37.967 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.Q.selectViewCountById              : <==      Total: 1
+2019-08-29 08:57:37.968 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.QuestionMapper.updateViewCount     : ==>  Preparing: UPDATE question SET view_count=? where id = ? 
+2019-08-29 08:57:37.968 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.QuestionMapper.updateViewCount     : ==> Parameters: 15(Integer), 37(Integer)
+2019-08-29 08:57:37.969 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.QuestionMapper.updateViewCount     : <==    Updates: 1
+2019-08-29 08:57:37.970 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.CommentMapper.selectByParentId     : ==>  Preparing: select * from comment where parent_id = ? 
+2019-08-29 08:57:37.970 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.CommentMapper.selectByParentId     : ==> Parameters: 37(Integer)
+2019-08-29 08:57:37.972 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.M.CommentMapper.selectByParentId     : <==      Total: 1
+2019-08-29 08:57:37.972 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:57:37.973 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:57:37.973 DEBUG 55292 --- [http-nio-8080-exec-2] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.707 DEBUG 55292 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:58:14.707 DEBUG 55292 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:58:14.708 DEBUG 55292 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:58:14.710 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:58:14.710 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:58:14.711 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:58:14.712 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:58:14.712 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:58:14.717 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:58:14.718 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:14.719 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:14.720 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.720 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:14.721 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:58:14.722 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.724 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:14.725 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:14.728 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.729 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:14.729 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:14.732 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.733 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:14.733 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:14.735 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.736 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:14.736 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:14.737 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.738 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:14.738 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:14.739 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:14.740 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:58:14.740 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:58:14.743 DEBUG 55292 --- [http-nio-8080-exec-5] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:58:40.656 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:58:40.656 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:58:40.658 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:58:40.660 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:58:40.660 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:58:40.661 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:58:40.661 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:58:40.661 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:58:40.663 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:58:40.663 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:40.664 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:40.665 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:40.668 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:40.668 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:58:40.669 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:40.670 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:40.670 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:40.671 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:40.672 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:40.680 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:40.681 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:40.681 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:40.682 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:40.684 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:40.685 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:40.685 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:40.688 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:40.689 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:40.689 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:40.690 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:40.690 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:58:40.691 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:58:40.691 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:58:42.353 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:58:42.354 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:58:42.355 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:58:42.357 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:58:42.358 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:58:42.358 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:58:42.359 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:58:42.359 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:58:42.361 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:58:42.362 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:42.363 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:42.365 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:42.366 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:42.366 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:58:42.367 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:42.368 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:42.368 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:42.369 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:42.371 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:42.371 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:42.372 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:42.374 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:42.374 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:42.375 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:42.376 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:42.376 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:42.376 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:42.377 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:58:42.377 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:58:42.378 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:58:42.379 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:58:42.379 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:58:42.379 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:59:29.608 DEBUG 55292 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:29.608 DEBUG 55292 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:29.611 DEBUG 55292 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:29.613 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:59:29.614 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:59:29.614 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:59:29.615 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:59:29.615 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:59:29.617 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:59:29.617 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:29.618 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:29.619 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:29.620 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:29.620 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:59:29.621 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:29.622 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:29.622 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:29.623 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:29.625 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:29.625 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:29.627 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:29.627 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:29.628 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:29.630 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:29.631 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:29.631 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:29.632 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:29.632 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:29.633 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:29.634 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:29.635 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:59:29.635 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:59:29.636 DEBUG 55292 --- [http-nio-8080-exec-4] c.r.M.N.SelectUnReadCount                : <==      Total: 1
+2019-08-29 08:59:31.175 DEBUG 55292 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:31.176 DEBUG 55292 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:31.177 DEBUG 55292 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:31.178 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:59:31.178 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 37(Integer)
+2019-08-29 08:59:31.179 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:59:31.180 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:31.180 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:31.181 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:31.182 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.selectByRegexpTag   : ==>  Preparing: select * from question where id !=? and tag regexp ? 
+2019-08-29 08:59:31.182 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.selectByRegexpTag   : ==> Parameters: 37(Integer), MarkDown(String)
+2019-08-29 08:59:31.183 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.selectByRegexpTag   : <==      Total: 4
+2019-08-29 08:59:31.185 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.QuestionMapper.selectById     : ==>  Preparing: select * from question where id = ? 
+2019-08-29 08:59:31.186 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.QuestionMapper.selectById     : ==> Parameters: 37(Integer)
+2019-08-29 08:59:31.187 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.QuestionMapper.selectById     : <==      Total: 1
+2019-08-29 08:59:31.187 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.Q.selectViewCountById              : ==>  Preparing: select view_count from question where id = ? 
+2019-08-29 08:59:31.188 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.Q.selectViewCountById              : ==> Parameters: 37(Integer)
+2019-08-29 08:59:31.189 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.Q.selectViewCountById              : <==      Total: 1
+2019-08-29 08:59:31.189 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.updateViewCount     : ==>  Preparing: UPDATE question SET view_count=? where id = ? 
+2019-08-29 08:59:31.194 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.updateViewCount     : ==> Parameters: 16(Integer), 37(Integer)
+2019-08-29 08:59:31.195 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.QuestionMapper.updateViewCount     : <==    Updates: 1
+2019-08-29 08:59:31.195 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.CommentMapper.selectByParentId     : ==>  Preparing: select * from comment where parent_id = ? 
+2019-08-29 08:59:31.196 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.CommentMapper.selectByParentId     : ==> Parameters: 37(Integer)
+2019-08-29 08:59:31.197 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.M.CommentMapper.selectByParentId     : <==      Total: 1
+2019-08-29 08:59:31.197 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:31.197 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:59:31.198 DEBUG 55292 --- [http-nio-8080-exec-6] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:34.154 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:34.154 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:34.155 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:34.168 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.Q.selectByCreator_COUNT            : ==>  Preparing: SELECT count(0) FROM question WHERE creator = ? 
+2019-08-29 08:59:34.168 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.Q.selectByCreator_COUNT            : ==> Parameters: 40432448(String)
+2019-08-29 08:59:34.169 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.Q.selectByCreator_COUNT            : <==      Total: 1
+2019-08-29 08:59:34.170 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectByCreator     : ==>  Preparing: select * from question where creator = ? LIMIT ? 
+2019-08-29 08:59:34.170 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectByCreator     : ==> Parameters: 40432448(String), 3(Integer)
+2019-08-29 08:59:34.172 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.QuestionMapper.selectByCreator     : <==      Total: 3
+2019-08-29 08:59:34.173 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.selectByReceiver                 : ==>  Preparing: select * from notification where receiver = ? and status=0 order by gmt_create Desc 
+2019-08-29 08:59:34.174 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.selectByReceiver                 : ==> Parameters: 40432448(Integer)
+2019-08-29 08:59:34.175 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.selectByReceiver                 : <==      Total: 0
+2019-08-29 08:59:34.176 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.selectByReceiverIsRead           : ==>  Preparing: select * from notification where receiver = ? and status=1 order by gmt_create Desc 
+2019-08-29 08:59:34.176 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.selectByReceiverIsRead           : ==> Parameters: 40432448(Integer)
+2019-08-29 08:59:34.179 DEBUG 55292 --- [http-nio-8080-exec-8] c.r.M.N.selectByReceiverIsRead           : <==      Total: 15
+2019-08-29 08:59:35.249 DEBUG 55292 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.250 DEBUG 55292 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.251 DEBUG 55292 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.298 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.299 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.299 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.300 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.300 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.303 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.495 DEBUG 55292 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.496 DEBUG 55292 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.499 DEBUG 55292 --- [http-nio-8080-exec-4] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.501 DEBUG 55292 --- [http-nio-8080-exec-3] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.501 DEBUG 55292 --- [http-nio-8080-exec-3] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.502 DEBUG 55292 --- [http-nio-8080-exec-3] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.507 DEBUG 55292 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.506 DEBUG 55292 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.508 DEBUG 55292 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.508 DEBUG 55292 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.508 DEBUG 55292 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.508 DEBUG 55292 --- [http-nio-8080-exec-5] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.509 DEBUG 55292 --- [http-nio-8080-exec-2] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.511 DEBUG 55292 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.513 DEBUG 55292 --- [http-nio-8080-exec-7] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.542 DEBUG 55292 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.543 DEBUG 55292 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.544 DEBUG 55292 --- [http-nio-8080-exec-6] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.567 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.567 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.568 DEBUG 55292 --- [http-nio-8080-exec-8] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:35.669 DEBUG 55292 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:35.669 DEBUG 55292 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:35.670 DEBUG 55292 --- [http-nio-8080-exec-9] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:37.045 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:37.045 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:37.046 DEBUG 55292 --- [http-nio-8080-exec-10] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:37.048 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.Q.selectByCreator_COUNT            : ==>  Preparing: SELECT count(0) FROM question WHERE creator = ? 
+2019-08-29 08:59:37.048 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.Q.selectByCreator_COUNT            : ==> Parameters: 40432448(String)
+2019-08-29 08:59:37.051 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.Q.selectByCreator_COUNT            : <==      Total: 1
+2019-08-29 08:59:37.052 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.QuestionMapper.selectByCreator     : ==>  Preparing: select * from question where creator = ? LIMIT ? 
+2019-08-29 08:59:37.052 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.QuestionMapper.selectByCreator     : ==> Parameters: 40432448(String), 3(Integer)
+2019-08-29 08:59:37.053 DEBUG 55292 --- [http-nio-8080-exec-10] c.r.M.QuestionMapper.selectByCreator     : <==      Total: 3
+2019-08-29 08:59:40.074 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==>  Preparing: SELECT * FROM user_review WHERE tooken = ? 
+2019-08-29 08:59:40.074 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : ==> Parameters: af17c036-5f33-40fb-870c-440b0adea4f1(String)
+2019-08-29 08:59:40.076 DEBUG 55292 --- [http-nio-8080-exec-1] com.review.Mapper.UserMapper.select      : <==      Total: 1
+2019-08-29 08:59:40.077 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==>  Preparing: SELECT count(0) FROM question 
+2019-08-29 08:59:40.077 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : ==> Parameters: 
+2019-08-29 08:59:40.078 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.QuestionMapper.selectAll_COUNT     : <==      Total: 1
+2019-08-29 08:59:40.079 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==>  Preparing: select * from question order by gmt_create Desc LIMIT ? 
+2019-08-29 08:59:40.079 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : ==> Parameters: 7(Integer)
+2019-08-29 08:59:40.080 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.QuestionMapper.selectAll      : <==      Total: 7
+2019-08-29 08:59:40.081 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:40.081 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:40.082 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:40.083 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:40.083 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 54517906(String)
+2019-08-29 08:59:40.084 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:40.084 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:40.085 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:40.086 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:40.087 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:40.088 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:40.088 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:40.089 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:40.089 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:40.089 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:40.090 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:40.090 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:40.090 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:40.091 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==>  Preparing: SELECT * FROM user_review WHERE account_id = ? 
+2019-08-29 08:59:40.091 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : ==> Parameters: 40432448(String)
+2019-08-29 08:59:40.092 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.Mapper.UserMapper.selectByCreator    : <==      Total: 1
+2019-08-29 08:59:40.092 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : ==>  Preparing: SELECT COUNT(status) FROM notification where status = 0 and receiver = ? 
+2019-08-29 08:59:40.092 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : ==> Parameters: 40432448(String)
+2019-08-29 08:59:40.093 DEBUG 55292 --- [http-nio-8080-exec-1] c.r.M.N.SelectUnReadCount                : <==      Total: 1
